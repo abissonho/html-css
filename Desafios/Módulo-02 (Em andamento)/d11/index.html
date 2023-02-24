@@ -12,16 +12,22 @@
         background-image: url(imagens/espaco.jpg);
         background-position: center center;
         background-repeat: no-repeat;
+        background-size: cover;
+
+        position: relative;
     }
     img{
-        width: 100px;
-        height: 100px;
-        margin: auto;
-        padding: auto;
+        position: absolute;
+        max-width: 250px;
+
+        left: 50%;
+        top: 50%;
+        
+        transform: translate(-50%, -50%);
     }
     </style>
 </head>
 <body>
-    <img src="imagens/astronauta.png" alt="">
+    <img src="imagens/astronauta.png" alt="astronauta">
 </body>
 </html>
