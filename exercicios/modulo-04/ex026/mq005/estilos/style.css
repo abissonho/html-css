@@ -22,10 +22,13 @@ header > h1 {
 #burguer{
     color: white;
     display: block;
-    text-align: center;
+    text-align: right;
     padding: 10px;
     background-color: rgb(44, 44, 44);
     cursor: pointer;
+
+    width: 25px;
+    margin-left: auto
 }
 
 #burguer:hover{
